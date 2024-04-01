@@ -1,0 +1,61 @@
+:root {
+    --negro: #000;
+    --amarillo: #ffc803;
+    --gris: #d3d3d3;
+    --blanco: #ffffff;
+    --verde:#71bf47;
+    --rosa: #f55459;
+    --rojo: #eb2127;
+}
+
+body {
+background-color: var(--blanco);
+font-family: quicksand;
+}
+
+/* NAVBAR */
+nav {
+    font-size: larger;
+}
+nav div a:hover {
+    border-radius: 5px;
+    background-color: var(--verde);
+    color: var(--blanco);
+}
+
+/* FIN NAVBAR */
+
+#logo-mw {
+display: block;
+margin: auto;
+}
+
+/* FOOTER */
+footer {
+    height: 7rem;
+    background-color: var(--verde);
+    margin-top: 7%;
+    text-align: center;
+}
+
+footer i {
+    font-size: xx-large;
+    color: var(--blanco);
+justify-content: center;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+#footer {
+    background-color: var(--blanco);
+}
+h5 {
+    padding-top: 1rem;
+    color: var(--negro);
+    font-weight: bold;
+}
+
+h6 {
+    color:var(--negro);
+    padding-bottom: 1rem;
+}
